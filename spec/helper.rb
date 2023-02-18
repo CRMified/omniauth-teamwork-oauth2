@@ -23,7 +23,7 @@ require "rspec"
 require "rack/test"
 require "webmock/rspec"
 require "omniauth"
-require "omniauth-oauth2"
+require "omniauth-teamwork"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |c|
