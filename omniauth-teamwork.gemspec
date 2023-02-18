@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["jhoskins@crmified.com"]
   gem.description   = "Unofficial OmniAuth OAuth2 strategy for Teamwork"
   gem.summary       = gem.description
-  gem.homepage      = "https://github.com/CRMified/omniauth-teamwork"
+  gem.homepage      = "https://github.com/CRMified/omniauth-teamwork-oauth2"
   gem.licenses      = %w[MIT]
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").collect { |f| File.basename(f) }
